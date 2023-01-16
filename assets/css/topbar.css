@@ -35,12 +35,12 @@
 /* 使得右侧ul靠页面右端显示  */
 .topbar-right {
     position: absolute;
-    right: 150px;
+    right: 10%;
 
 }
 
 .topbar-left {
-    margin-left: 150px;
+    margin-left: 10%;
 }
 
 a{
