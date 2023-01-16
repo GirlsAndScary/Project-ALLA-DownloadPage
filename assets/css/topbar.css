@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 装饰Topbar的div */
+.topbar {
+    height: 40px;
+    font-size: 12px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(255, 255, 255);
+}
+
+/* 使得列表值横向排列 */
+.topbar li {
+    display: inline;
+    /* 装饰topbar中的字体 *BOBOBO*/
+    color: rgb(0, 0, 0);
+    /* 字间距 */
+    margin-right: 13px;
+    font-size: large;
+    font-family:Font1;
+}
+
+/* 使得两个ul在同一行显示 */
+.topbar ul {
+    /* border: 1px red solid; */
+    display: inline-block;
+
+    /* ul行高设置 */
+    line-height: 38px;
+}
+
+/* 使得右侧ul靠页面右端显示  */
+.topbar-right {
+    position: absolute;
+    right: 150px;
+
+}
+
+.topbar-left {
+    margin-left: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

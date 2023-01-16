@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Font1';
+    src: url(../font/CangJiGaoDeGuoMiaoHei.woff);
+}
+
+h1 {
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-bottom: auto;
+    margin-left: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(255, 255, 255);
+    font-family: Font1;
+}
+
+p {
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: auto;
+    margin-right: 10%;
+    margin-bottom: auto;
+    margin-left: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(255, 255, 255);
+    font-family: Font1;
+}
+
+body {
+    background-image: linear-gradient(45deg, transparent 0%, transparent 55%, rgba(64, 64, 64, 0.04) 55%, rgba(64, 64, 64, 0.04) 76%, transparent 76%, transparent 100%), linear-gradient(135deg, transparent 0%, transparent 14%, rgba(64, 64, 64, 0.04) 14%, rgba(64, 64, 64, 0.04) 41%, transparent 41%, transparent 100%), linear-gradient(45deg, transparent 0%, transparent 2%, rgba(64, 64, 64, 0.04) 2%, rgba(64, 64, 64, 0.04) 18%, transparent 18%, transparent 100%), linear-gradient(135deg, transparent 0%, transparent 61%, rgba(64, 64, 64, 0.04) 61%, rgba(64, 64, 64, 0.04) 71%, transparent 71%, transparent 100%), linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+}
+
+.a_dl{
+    color: lightpink;
+}
